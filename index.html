@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
+    <section id="navbar" class="nostyle"  style="height: 12vh;">
     <nav id="desktop-nav">
         <div class="logo">Jeffrey David</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#qualification">Qualifications</a></li>
                 <li><a href="#projects">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -31,14 +33,17 @@
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#qualification" onclick="toggleMenu()">Qualifications</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
             </div>
         </div>
     </nav>
+</section>
+
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Jeffrey David profile pic"/>
+            <img src="./assets/profile-pic-blue.png" alt="Jeffrey David profile pic"/>
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
@@ -67,8 +72,19 @@
                 />
             </div>
         </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon" 
+        class="icon arrow"
+        onclick="location.href='./#about'" 
+        />
     </section>
     <section id="about">
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon" 
+        class="icon arrowup"
+        onclick="location.href='./#navbar'" 
+        style="transform: scaleY(-1);"
+        />
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
@@ -84,14 +100,22 @@
                         alt="Experience icon" 
                         class="icon"/>
                         <h3>Experience</h3>
-                        <p>1 year <br />Big Data Analytics</p>
+                        <p>1 year <br> Big Data Analytics</p>
+                        <!--<p><b>Accenture</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             2022 - 2023</b><br />Advanced Application Engineering Analyst<br>
+                            <ul style="text-align: justify; padding-left: 7rem;">
+                                <li>Trained in Apache Hadoop File System.</li>
+                                <li>Used tools such as HDFS, Map-Reduce, Hive, Spark and Pig. </li>
+                            </ul>
+                            </p>-->
                     </div>
                     <div class="details-container">
                         <img src="./assets/education.png" 
                         alt="Education icon" 
                         class="icon"/>
                         <h3>Education</h3>
-                        <p>B.Tech. Computer Science and Engineering<br />M.Sc. Information Systems</p>
+                        <p>B.Tech. Computer Science and Engineering at VIT, Vellore<br />M.Sc. Information Systems at NTU, Singapore</p>
                     </div>
                 </div>
                 <div class="text-container">
@@ -116,8 +140,14 @@
         />
     </section>
     <section id="experience">
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon" 
+        class="icon arrowup"
+        onclick="location.href='./#about'" 
+        style="transform: scaleY(-1);"
+        />
         <p class="section__text__p1"> Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
@@ -369,22 +399,113 @@
         <img src="./assets/arrow.png" 
         alt="Arrow Icon" 
         class="icon arrow"
+        onclick="location.href='./#qualification'" 
+        />
+    </section>
+    <section id="qualification">
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon" 
+        class="icon arrowup"
+        onclick="location.href='./#experience'" 
+        style="transform: scaleY(-1);"
+        />
+        <p class="section__text__p1"> Explore My</p>
+        <h1 class="title">Qualifications</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                
+                <div class="qualification-details-container">
+                    <h2 class="experience-sub-title">Education</h2>
+                    <div class="qualification-article-container">
+                        <article class="qual">
+                            <img src="./assets/education.png" alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 style="padding-left: 30px;">Nanyang Technological University, Singapore</h3><br>
+                                <h4 style="padding-left: 30px;">Master of Science in Information Systems</h4><br>
+                                <ul style="padding-left: 70px;">
+                                    <li>Completing in 2024</li>
+                                    <li>Focusing on Data Science and Text Mining through my choice of coursework specialization.</li>
+                                    <li>Courses: Text and Web Mining, Data Mining, Internet Programming, Research Methods for Data Analysis
+                                        and Information Visualization</li>
+
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="qual">
+                            <img src="./assets/education.png" alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 style="padding-left: 30px;">Vellore Institute of Technology, Vellore</h3><br>
+                                <h4 style="padding-left: 30px;">B.Tech. Computer Science and Engineering</h4><br>
+                                <ul style="padding-left: 70px;">
+                                    <li>CGPA : 8.78</li>
+                                    <li>Core Courses: Data Structures and Algorithms, Operating Systems, Database Management Systems, Computer Architecture</li>
+                                    <li>Elective Courses: Web Mining, Statistical Data Analytics and Artificial Intelligence for Beginners</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <div class="qualification-details-container">
+                    <h2 class="experience-sub-title">Experience</h2>
+                    <div class="qualification-article-container">
+                        <article class="qual">
+                            <img src="./assets/experience.png" alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 style="padding-left: 30px;">Accenture Solutions Private Limited, Bangalore</h3><br>
+                                <h4 style="padding-left: 30px;">Advanced Application Engineering Analyst</h4><br>
+                                <ul style="padding-left: 70px;">
+                                    <li>Trained in Apache Hadoop File System and learned to use different big data analytics tools like Apache Hive,
+                                        Spark, Cassandra and more as a fresher</li>
+                                    <li>Designed, developed, and implemented end-to-end data pipelines using Hadoop ecosystem tools such as
+                                        HDFS, Map-Reduce, Hive, and Pig.</li>
+                                    <li>Successfully integrated data from various sources, enabling efficient processing and analysis within the
+                                        Hadoop cluster</li>
+                                    <li>Documented processes, procedures, and best practices for Hadoop cluster management and data processing</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon" 
+        class="icon arrow"
         onclick="location.href='./#projects'" 
         />
     </section>
     <section id="projects">
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon" 
+        class="icon arrowup"
+        onclick="location.href='./#qualification'" 
+        style="transform: scaleY(-1);"
+        />
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
+        <div class="experience-details-container" style=" overflow-y: auto;">
             <div class="about-containers">
                     <div class="details-container color-container">
                         <div class="article-container">
-                            <img src="./assets/project-1.png" 
+                            <img src="./assets/twitter-BERT.png" 
                                 alt="Project-1"
                                 class="project-img"
                             />
                         </div>
                         <h2 class="experience-sub-title project-title">Twitter Sentiment Analysis with MLP, CNN and BERT</h2>
+                        <p class="section__text__p1 project-desc">
+                            <br>This project explores text classification for sentiment analysis using diverse deep learning models: 
+                            Multi-Layer Perceptron (MLP), Convolutional Neural Network (CNN), and Bidirectional Encoder 
+                            Representations from Transformers (BERT). 
+                         <br><br></p>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-bt" 
                             onclick="location.href='https://github.com/Jeffrey-David/Twitter-Sentiment-Analysis-with-MLP-CNN-and-BERT'">Github</button>
@@ -392,41 +513,126 @@
                     </div>
                     <div class="details-container color-container">
                         <div class="article-container">
-                            <img src="./assets/project-1.png" 
+                            <img src="./assets/water.png" 
                                 alt="Project-1"
                                 class="project-img"
                             />
                         </div>
-                        <h2 class="experience-sub-title project-title">Twitter Sentiment Analysis with MLP, CNN and BERT</h2>
+                        <h2 class="experience-sub-title project-title">Deep Learning Model for Analyzing Water Quality Level and Flow of Cauvery River, India</h2>
+                        <p class="section__text__p1 project-desc">
+                            The project focused on predicting Cauvery River's Water Quality Index (WQI) using a kernel trained on key water metrics. 
+                            After adapting the kernel, it calculated WQI for various locations and periods, while time series forecasting models 
+                            predicted water levels and flows.
+                         <br></p>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-bt" 
-                            onclick="location.href='https://github.com/Jeffrey-David/Twitter-Sentiment-Analysis-with-MLP-CNN-and-BERT'">Github</button>
+                            onclick="location.href='https://github.com/Jeffrey-David/Deep-Learning-Model-for-Analyzing-Water-Quality-Level-and-Flow-of-Cauvery-River-India'">Github</button>
                         </div>
                     </div>
                     <div class="details-container color-container">
                         <div class="article-container">
-                            <img src="./assets/project-1.png" 
+                            <img src="./assets/vz1f8191.Ensemble-of-decision-trees.png" 
                                 alt="Project-1"
                                 class="project-img"
                             />
                         </div>
-                        <h2 class="experience-sub-title project-title">Twitter Sentiment Analysis with MLP, CNN and BERT</h2>
+                        <h2 class="experience-sub-title project-title">Ensemble Decision Tree Classifier for Income Classification</h2>
+                        <p class="section__text__p1 project-desc">
+                            <br>This project is the implementation and evaluation of an ensemble decision tree classifier for income classification. 
+                            The goal is to determine whether a person's income exceeds a certain threshold considering aspects such as performance, 
+                            time, and data preprocessing.
+                         <br></p>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-bt" 
-                            onclick="location.href='https://github.com/Jeffrey-David/Twitter-Sentiment-Analysis-with-MLP-CNN-and-BERT'">Github</button>
+                            onclick="location.href='https://github.com/Jeffrey-David/Ensemble-Decision-Tree-Classifier-for-Income-Classification'">Github</button>
                         </div>
                     </div>
                     <div class="details-container color-container">
                         <div class="article-container">
-                            <img src="./assets/project-1.png" 
+                            <img src="./assets/d3.png" 
                                 alt="Project-1"
                                 class="project-img"
                             />
                         </div>
-                        <h2 class="experience-sub-title project-title">Twitter Sentiment Analysis with MLP, CNN and BERT</h2>
+                        <h2 class="experience-sub-title project-title">Exploring Global Warming's Impact using D3.js</h2>
+                        <p class="section__text__p1 project-desc">
+                            <br>The primary objective of this project is to promote an awareness that motivates significant action towards reducing CO2
+                             emissions and encouraging sustainable practices. It is visualized using D3.js to create a storyboard.
+                         <br><br></p>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-bt" 
-                            onclick="location.href='https://github.com/Jeffrey-David/Twitter-Sentiment-Analysis-with-MLP-CNN-and-BERT'">Github</button>
+                            onclick="location.href='https://github.com/Jeffrey-David/Global-Warming-StoryBoard-using-D3.js'">Github</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/tableau.png" 
+                                alt="Project-1"
+                                class="project-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Singapore COVID-19 StoryBoard</h2>
+                        <p class="section__text__p1 project-desc">
+                            <br>The "Singapore COVID-19 Storyboard" presented through Tableau provides a dynamic visual narrative of the pandemic's 
+                            impact on Singapore. With interactive data visualizations, it explores trends, vaccination rates, and healthcare statistics, 
+                            offering a comprehensive and accessible overview.
+                         <br><br></p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-bt" 
+                            onclick="location.href='https://github.com/Jeffrey-David/Singapore-COVID-19-StoryBoard'">Github</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/cnn.png" 
+                                alt="Project-1"
+                                class="project-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Cataract Classification Using CNN</h2>
+                        <p class="section__text__p1 project-desc">
+                            This project implements a Cataract Classification Model using CNN in Google Colab. Leveraging cataract and Ocular Disease 
+                            Recognition datasets, the algorithm processes and combines them to train a deep learning model, achieving accurate cataract 
+                            diagnosis with a thorough evaluation of performance.
+                         <br><br></p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-bt" 
+                            onclick="location.href='https://github.com/Jeffrey-David/Cataract-Classification-Using-CNN'">Github</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/hotel.png" 
+                                alt="Project-1"
+                                class="project-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Elegancy Stay Hotel Management System</h2>
+                        <p class="section__text__p1 project-desc">
+                            The primary purpose of this project is to streamline the hotel booking process, enhance user experience, and provide 
+                            an efficient solution for managing room reservations. The project targets both customers and hotel administrators, 
+                            offering the following key features like visualizations.
+                         <br><br></p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-bt" 
+                            onclick="location.href='https://github.com/Jeffrey-David/Elegancy-Stay-Hotel-Management-System'">Github</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/twitpy.jpg" 
+                                alt="Project-1"
+                                class="project-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Twitter Sentiment Analysis System</h2>
+                        <p class="section__text__p1 project-desc">
+                            <br><br><br>A Twitter sentiment analysis system built using python with Naive Bayes Model. It uses Twitter API 
+                            to fetch tweets related to query and sentiment analysis is done on the results.
+                         <br><br><br></p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-bt" 
+                            onclick="location.href='https://github.com/Jeffrey-David/Twitter-Sentiment-Analysis-System'">Github</button>
                         </div>
                     </div>
             </div>
@@ -438,6 +644,12 @@
         />
     </section>
     <section id="contact">
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon" 
+        class="icon arrowup"
+        onclick="location.href='./#projects'" 
+        style="transform: scaleY(-1);"
+        />
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
@@ -462,7 +674,8 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#qualification">Qualifications</a></li>
                     <li><a href="#projects">Project</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
