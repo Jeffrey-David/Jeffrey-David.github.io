@@ -23,11 +23,17 @@
     .experience-details-container {
       margin-top: 2rem;
     }
+    .details-container {
+      width: 100px;
+    }
     #profile,
     .section-container {
       display: block;
     }
     .arrow {
+      display: none;
+    }
+    .arrowup {
       display: none;
     }
     section,
@@ -45,6 +51,12 @@
     .about-containers {
       margin-top: 0;
     }
+    .project-img{
+      border-radius: 2rem;
+      width: 270px;
+      height: 170px;
+  }
+
   }
   
   @media screen and (max-width: 600px) {
@@ -86,6 +98,9 @@
       gap: 0.5rem;
       text-align: center;
     }
+    .details-container {
+      width:500px;
+    }
     .section__pic-container {
       width: auto;
       height: 46vw;
@@ -100,5 +115,7 @@
     .text-container {
       text-align: justify;
     }
+
+    
   }
   
