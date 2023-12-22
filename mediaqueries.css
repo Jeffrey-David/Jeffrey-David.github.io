@@ -3,33 +3,13 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
+
+
   section,
   .section-container {
     height: fit-content;
   }
-  section {
-    margin: 0 5%;
-  }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .about-containers {
-    margin-top: 0;
-  }
-  .project-img{
-    border-radius: 2rem;
-    width: 270px;
-    height: 170px;
-}
+
 }
 
 @media screen and (max-width: 1400px) {
