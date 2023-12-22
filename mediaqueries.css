@@ -3,7 +3,19 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
+  #about {
+    height: 100vh;
+    margin-bottom: 2rem;
+  }
 
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+  }
 
   section,
   .section-container {
