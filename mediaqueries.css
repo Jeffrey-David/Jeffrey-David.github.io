@@ -33,7 +33,7 @@
       flex-wrap: wrap;
     }
     #contact,
-    #projects {
+    #projects, #about {
       height: fit-content;
     }
     section,
