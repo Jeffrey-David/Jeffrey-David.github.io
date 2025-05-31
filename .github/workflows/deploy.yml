@@ -18,15 +18,13 @@ jobs:
           node-version: '18' # or your preferred Node.js version
 
       - name: Install Dependencies
-        working-directory: ./Jeffrey-David-Portfolio
         run: npm install
 
       - name: Build
-        working-directory: ./Jeffrey-David-Portfolio
         run: npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: Jeffrey-David-Portfolio/dist # Update the build output directory path
+          folder: dist # Build output directory path
           branch: gh-pages 
