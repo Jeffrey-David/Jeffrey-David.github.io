@@ -23,5 +23,5 @@ export default defineConfig({
       }
     }
   },
-  base: '/'
+  base: '/Jeffrey-David.github.io/'
 })
