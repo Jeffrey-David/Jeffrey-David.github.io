@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8 sm:mt-10">
           <button 
             className="group px-8 py-3 rounded-full border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 
-              hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white active:scale-95
+              hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white dark:hover:text-white active:scale-95
               transition-all duration-300 transform hover:scale-105 
               flex items-center justify-center gap-3 shadow-lg hover:shadow-xl cursor-pointer text-base font-medium
               bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm"
@@ -118,7 +118,7 @@ const Hero = () => {
           onClick={() => location.href = '#about'}
           className="group flex flex-col items-center gap-2 transition-all duration-300 hover:transform hover:-translate-y-1"
         >
-          <span className="text-gray-600 dark:text-gray-400 text-sm font-medium">Scroll Down</span>
+
           <img 
             src={arrowIcon}
             alt="Scroll Down"
