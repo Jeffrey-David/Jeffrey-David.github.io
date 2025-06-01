@@ -12,6 +12,8 @@ export default defineConfig({
   },
   assetsInclude: ['**/*.pdf'],
   build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
@@ -19,9 +21,26 @@ export default defineConfig({
             return 'assets/[name][extname]';
           }
           return 'assets/[name]-[hash][extname]';
-        }
+        },
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js'
       }
+    },
+    manifest: true
+  },
+  base: process.env.NODE_ENV === 'production' ? '/Jeffrey-David.github.io/' : '/',
+  preview: {
+    port: 4173,
+    host: true,
+    headers: {
+      'Cache-Control': 'no-store',
+      'X-Content-Type-Options': 'nosniff'
     }
   },
-  base: 'https://Jeffrey-David.github.io/'
+  server: {
+    headers: {
+      'Cache-Control': 'no-store',
+      'X-Content-Type-Options': 'nosniff'
+    }
+  }
 })
