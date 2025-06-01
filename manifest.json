@@ -1,0 +1,126 @@
+{
+  "index.css": {
+    "file": "assets/index-2ede5a65.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "assets": [
+      "assets/profile-pic-blue-9983c1c3.png",
+      "assets/linkedin-d2335ed0.png",
+      "assets/github-d83ddf4e.png",
+      "assets/arrow-fdf0f700.png",
+      "assets/Jeffrey-CV.pdf",
+      "assets/about-pic-ad13d009.jpg",
+      "assets/experience-a3f66c1d.png",
+      "assets/education-9b4a9a35.png",
+      "assets/checkmark-d1461b79.png",
+      "assets/Aspect-716ad065.png",
+      "assets/Blockchain-0ebacdf7.png",
+      "assets/twitter-BERT-7c636941.png",
+      "assets/water-3091b71a.png",
+      "assets/vz1f8191.Ensemble-of-decision-trees-605bfedf.png",
+      "assets/d3-a6d46ef8.png",
+      "assets/tableau-8235f87b.png",
+      "assets/cnn-f167973f.png",
+      "assets/hotel-bee4c459.png",
+      "assets/twitpy-26ad362e.jpg",
+      "assets/email-fdf7cfe0.png",
+      "assets/ajax-loader-e7b44c86.gif",
+      "assets/slick-12459f22.svg"
+    ],
+    "css": [
+      "assets/index-2ede5a65.css"
+    ],
+    "file": "assets/index-0e0a5529.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "node_modules/slick-carousel/slick/ajax-loader.gif": {
+    "file": "assets/ajax-loader-e7b44c86.gif",
+    "src": "node_modules/slick-carousel/slick/ajax-loader.gif"
+  },
+  "node_modules/slick-carousel/slick/fonts/slick.svg": {
+    "file": "assets/slick-12459f22.svg",
+    "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
+  },
+  "src/assets/Aspect.png": {
+    "file": "assets/Aspect-716ad065.png",
+    "src": "src/assets/Aspect.png"
+  },
+  "src/assets/Blockchain.png": {
+    "file": "assets/Blockchain-0ebacdf7.png",
+    "src": "src/assets/Blockchain.png"
+  },
+  "src/assets/Jeffrey-CV.pdf": {
+    "file": "assets/Jeffrey-CV.pdf",
+    "src": "src/assets/Jeffrey-CV.pdf"
+  },
+  "src/assets/about-pic.jpg": {
+    "file": "assets/about-pic-ad13d009.jpg",
+    "src": "src/assets/about-pic.jpg"
+  },
+  "src/assets/arrow.png": {
+    "file": "assets/arrow-fdf0f700.png",
+    "src": "src/assets/arrow.png"
+  },
+  "src/assets/checkmark.png": {
+    "file": "assets/checkmark-d1461b79.png",
+    "src": "src/assets/checkmark.png"
+  },
+  "src/assets/cnn.png": {
+    "file": "assets/cnn-f167973f.png",
+    "src": "src/assets/cnn.png"
+  },
+  "src/assets/d3.png": {
+    "file": "assets/d3-a6d46ef8.png",
+    "src": "src/assets/d3.png"
+  },
+  "src/assets/education.png": {
+    "file": "assets/education-9b4a9a35.png",
+    "src": "src/assets/education.png"
+  },
+  "src/assets/email.png": {
+    "file": "assets/email-fdf7cfe0.png",
+    "src": "src/assets/email.png"
+  },
+  "src/assets/experience.png": {
+    "file": "assets/experience-a3f66c1d.png",
+    "src": "src/assets/experience.png"
+  },
+  "src/assets/github.png": {
+    "file": "assets/github-d83ddf4e.png",
+    "src": "src/assets/github.png"
+  },
+  "src/assets/hotel.png": {
+    "file": "assets/hotel-bee4c459.png",
+    "src": "src/assets/hotel.png"
+  },
+  "src/assets/linkedin.png": {
+    "file": "assets/linkedin-d2335ed0.png",
+    "src": "src/assets/linkedin.png"
+  },
+  "src/assets/profile-pic-blue.png": {
+    "file": "assets/profile-pic-blue-9983c1c3.png",
+    "src": "src/assets/profile-pic-blue.png"
+  },
+  "src/assets/tableau.png": {
+    "file": "assets/tableau-8235f87b.png",
+    "src": "src/assets/tableau.png"
+  },
+  "src/assets/twitpy.jpg": {
+    "file": "assets/twitpy-26ad362e.jpg",
+    "src": "src/assets/twitpy.jpg"
+  },
+  "src/assets/twitter-BERT.png": {
+    "file": "assets/twitter-BERT-7c636941.png",
+    "src": "src/assets/twitter-BERT.png"
+  },
+  "src/assets/vz1f8191.Ensemble-of-decision-trees.png": {
+    "file": "assets/vz1f8191.Ensemble-of-decision-trees-605bfedf.png",
+    "src": "src/assets/vz1f8191.Ensemble-of-decision-trees.png"
+  },
+  "src/assets/water.png": {
+    "file": "assets/water-3091b71a.png",
+    "src": "src/assets/water.png"
+  }
+}
