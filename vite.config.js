@@ -28,7 +28,7 @@ export default defineConfig({
     },
     manifest: true
   },
-  base: process.env.NODE_ENV === 'production' ? '/Jeffrey-David.github.io/' : '/',
+  base: process.env.VITE_BASE_URL || '/',
   preview: {
     port: 4173,
     host: true,

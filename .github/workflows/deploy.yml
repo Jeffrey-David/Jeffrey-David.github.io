@@ -24,6 +24,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_BASE_URL: /Jeffrey-David.github.io/
 
       - name: Create .nojekyll
         run: touch dist/.nojekyll
