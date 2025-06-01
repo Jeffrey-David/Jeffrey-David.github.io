@@ -1,14 +1,14 @@
 import React from 'react'
 import './App.css'
-import Navbar from "@/components/custom/Navbar.jsx"
-import Hero from "@/components/sections/Hero.jsx"
-import About from "@/components/sections/About.jsx"
-import Skills from "@/components/sections/Skills.jsx"
-import Qualifications from "@/components/sections/Qualifications.jsx"
-import Projects from "@/components/sections/Projects.jsx"
-import Contact from "@/components/sections/Contact.jsx"
-import Footer from "./components/Footer"
-import { ThemeProvider } from './context/ThemeContext'
+import Navbar from "./components/custom/Navbar.jsx"
+import Hero from "./components/sections/Hero.jsx"
+import About from "./components/sections/About.jsx"
+import Skills from "./components/sections/Skills.jsx"
+import Qualifications from "./components/sections/Qualifications.jsx"
+import Projects from "./components/sections/Projects.jsx"
+import Contact from "./components/sections/Contact.jsx"
+import Footer from "./components/custom/Footer.jsx"
+import { ThemeProvider } from './context/ThemeContext.jsx'
 
 function App() {
   return (
