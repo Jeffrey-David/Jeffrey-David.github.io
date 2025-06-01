@@ -7,7 +7,7 @@ import Skills from "./components/sections/Skills.jsx"
 import Qualifications from "./components/sections/Qualifications.jsx"
 import Projects from "./components/sections/Projects.jsx"
 import Contact from "./components/sections/Contact.jsx"
-import Footer from "./components/custom/Footer.jsx"
+import Footer from "./components/Footer.jsx"
 import { ThemeProvider } from './context/ThemeContext.jsx'
 
 function App() {
