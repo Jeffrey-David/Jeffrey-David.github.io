@@ -107,7 +107,7 @@ const Skills = () => {
       </div>
       
       {/* Section Header */}
-      <div className="text-center mb-6 sm:mb-8 mt-2 sm:mt-4">
+      <div className="text-center mb-6 sm:mb-8 mt-8 sm:mt-4">
         <p className="text-blue-600 dark:text-blue-400 font-medium mb-1 sm:mb-2 uppercase tracking-wider text-xs sm:text-sm">
           Explore My
         </p>
@@ -123,7 +123,7 @@ const Skills = () => {
         </div>
 
         {/* Navigation Arrow Down */}
-        <div className="text-center mt-6 sm:mt-8">
+        <div className="text-center mt-8 sm:mt-12 mb-4">
           <img 
             src={arrowIcon}
             alt="Navigate Down"

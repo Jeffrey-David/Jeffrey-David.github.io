@@ -113,16 +113,15 @@ const Hero = () => {
       </div>
 
       {/* Scroll Arrow */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+      <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 z-10">
         <button
           onClick={() => location.href = '#about'}
           className="group flex flex-col items-center gap-2 transition-all duration-300 hover:transform hover:-translate-y-1"
         >
-
           <img 
             src={arrowIcon}
             alt="Scroll Down"
-            className="w-8 h-8 cursor-pointer animate-bounce opacity-70 group-hover:opacity-100 transition duration-300 dark:invert"
+            className="w-6 sm:w-7 h-6 sm:h-7 cursor-pointer animate-bounce opacity-70 group-hover:opacity-100 transition duration-300 dark:invert"
           />
         </button>
       </div>

@@ -168,7 +168,7 @@ const Navbar = () => {
               : 'opacity-0 -translate-y-full invisible'
           }`}
         >
-          <div className="flex flex-col items-center justify-center h-screen gap-8 px-4">
+          <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-900 h-screen gap-8 px-4">
             {navItems.map((item) => (
               <a 
                 key={item.name}

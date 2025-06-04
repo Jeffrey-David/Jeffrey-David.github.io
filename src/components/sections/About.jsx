@@ -51,17 +51,17 @@ const About = () => {
   return (
     <section id="about" className="py-10 sm:py-20 relative bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 px-4">
       {/* Navigation Arrow Up */}
-      <div className="absolute top-4 sm:top-8 left-1/2 transform -translate-x-1/2">
+      <div className="absolute top-4 sm:top-6 left-1/2 transform -translate-x-1/2">
         <img 
           src={arrowIcon}
           alt="Navigate Up"
-          className="w-8 h-8 cursor-pointer rotate-180 hover:opacity-80 transition-opacity dark:invert"
+          className="w-6 sm:w-7 h-6 sm:h-7 cursor-pointer rotate-180 hover:opacity-80 transition-opacity dark:invert"
           onClick={() => location.href = '/'}
         />
       </div>
       
       {/* Section Header */}
-      <div className="text-center mb-8 sm:mb-16">
+      <div className="text-center mb-8 sm:mb-16 mt-8 sm:mt-4">
         <p className="text-blue-600 dark:text-blue-400 font-medium mb-2 uppercase tracking-wider text-sm sm:text-base">
           Get To Know More
         </p>
@@ -110,11 +110,11 @@ const About = () => {
       </div>
 
       {/* Navigation Arrow Down */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2">
         <img 
           src={arrowIcon}
           alt="Navigate Down"
-          className="w-8 h-8 cursor-pointer hover:opacity-80 transition-opacity animate-bounce dark:invert"
+          className="w-6 sm:w-7 h-6 sm:h-7 cursor-pointer hover:opacity-80 transition-opacity animate-bounce dark:invert"
           onClick={() => location.href = '#skills'}
         />
       </div>

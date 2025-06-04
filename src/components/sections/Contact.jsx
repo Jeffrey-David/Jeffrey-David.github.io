@@ -60,7 +60,7 @@ const Contact = () => {
       </div>
       
       {/* Section Header */}
-      <div className="text-center mb-8 sm:mb-12 mt-2 sm:mt-4">
+      <div className="text-center mb-8 sm:mb-12 mt-8 sm:mt-4">
         <p className="text-blue-600 dark:text-blue-400 font-medium mb-1 sm:mb-2 uppercase tracking-wider text-xs sm:text-sm">Get in Touch</p>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-gray-200">Contact Me</h1>
       </div>
